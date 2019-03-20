@@ -36,33 +36,32 @@
 
     <p class="lead">
     We structure the workshop around the design process with its four key phases:
-    <a href="#Ideation">Ideation</a>, <a href="#Exploration">Exploration</a>, <a href="#Optimization">Optimization</a>, <a href="#Reflection">Reflection</a>.
+      <a href="#Ideation" onclick="linkClick('ideation')">Ideation</a>,
+      <a href="#Exploration" onclick="linkClick('exploration')">Exploration</a>,
+      <a href="#Optimization" onclick="linkClick('optimisation')">Optimization</a>,
+      <a href="#Reflection" onclick="linkClick('reflection')">Reflection</a>.
     </p>
+
+    <script type="text/javascript">
+      function linkClick(name) {
+        var cards = document.getElementsByClassName('card');
+        for (var i = 0, s = cards.length; i < s; i++) {
+          if (cards[i].id === name) {
+            cards[i].style.display = 'block';
+          } else {
+            cards[i].style.display = 'none';
+          }
+        }
+      }
+    </script>
 
     <p>
-      <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Common Challenges</a>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Ideation</button>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Exploration</button>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Optimisation</button>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Reflection</button>
+      <button class="btn btn-primary" type="button" onclick="linkClick('common')">Common Challenges</button>
+      <button class="btn btn-primary" type="button" onclick="linkClick('ideation')">Ideation</button>
+      <button class="btn btn-primary" type="button" onclick="linkClick('exploration')">Exploration</button>
+      <button class="btn btn-primary" type="button" onclick="linkClick('optimisation')">Optimisation</button>
+      <button class="btn btn-primary" type="button" onclick="linkClick('reflection')">Reflection</button>
     </p>
-    <div class="row">
-      <div class="col">
-        <div class="collapse multi-collapse" id="multiCollapseExample1">
-          <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="collapse multi-collapse" id="multiCollapseExample2">
-          <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <div id="common" class="card" style="display:block">
       <div class="collapse show">
