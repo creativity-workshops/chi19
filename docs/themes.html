@@ -43,8 +43,9 @@
     </p>
 
     <script type="text/javascript">
-      function linkClick(name) {
+      function linkClick(name, id) {
         var cards = document.getElementsByClassName('card');
+        var buttons = document.getElementsByTagName('button');
         for (var i = 0, s = cards.length; i < s; i++) {
           if (cards[i].id === name) {
             cards[i].style.display = 'block';
@@ -52,15 +53,22 @@
             cards[i].style.display = 'none';
           }
         }
+        for (var i = 0, s = buttons.length; i < s; i++) {
+          if (buttons[i].className.indexOf('btn-primary') === -1) {
+            buttons[i].className = buttons[i].className + ' btn-primary';
+          }
+        }
+        var activeButton = document.getElementById(id);
+        activeButton.className = activeButton.className.replace(/btn\-primary/g, "");
       }
     </script>
 
     <p>
-      <button class="btn btn-primary" type="button" onclick="linkClick('common')">Common Challenges</button>
-      <button class="btn btn-primary" type="button" onclick="linkClick('ideation')">Ideation</button>
-      <button class="btn btn-primary" type="button" onclick="linkClick('exploration')">Exploration</button>
-      <button class="btn btn-primary" type="button" onclick="linkClick('optimisation')">Optimisation</button>
-      <button class="btn btn-primary" type="button" onclick="linkClick('reflection')">Reflection</button>
+      <button id="bc" class="btn btn-primary" type="button" onclick="linkClick('common', 'bc')">Common Challenges</button>
+      <button id="bi" class="btn btn-primary" type="button" onclick="linkClick('ideation', 'bi')">Ideation</button>
+      <button id="be" class="btn btn-primary" type="button" onclick="linkClick('exploration', 'be')">Exploration</button>
+      <button id="bo" class="btn btn-primary" type="button" onclick="linkClick('optimisation', 'bo')">Optimisation</button>
+      <button id="br" class="btn btn-primary" type="button" onclick="linkClick('reflection', 'br')">Reflection</button>
     </p>
 
     <div id="common" class="card" style="display:block">
