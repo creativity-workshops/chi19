@@ -1,0 +1,93 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://creativity-workshops.github.io/cc19" resolutions="1x" timestamp="1553537133294">
+  <folder name="css">
+    <file name="site_global.css" crc="4125020091"/>
+    <file name="master_a-master.css" crc="152764342" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="425814075" ref="index"/>
+    <file name="index.css" crc="298793679" ref="index"/>
+    <file name="nomq_index.css" crc="3759964111" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="cc19-workshop.pdf" crc="4146952459" seo="true" mt="1553469300000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u3698.php" crc="3839595060" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3883500470" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u386-4.png" crc="259291221" ref="index"/>
+    <file name="naghmishireen-crop-u3368.jpg" crc="4166623857" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="oppenlaender-crop-u3381.jpg" crc="271030986" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mackeprang-crop-u3398.jpg" crc="3769878207" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="halilerhan.jpg" crc="4283171567" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="goncalves.jpg" crc="408966588" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hosio.jpg" crc="372339150" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="naghmishireen-crop-u33682.jpg" crc="4291607647" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="oppenlaender-crop-u33812.jpg" crc="330587213" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mackeprang-crop-u33982.jpg" crc="4231989188" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mobilehamburgermenu-01.svg" crc="3869100105" ref="index"/>
+    <file name="mobilehamburgermenu-01_poster_u1850.png" crc="3857454275" ref="index"/>
+    <file name="mobilehamburgermenuclose-01.svg" crc="4001569846" ref="index"/>
+    <file name="mobilehamburgermenuclose-01_poster_u1858.png" crc="364782751" ref="index"/>
+    <file name="naghmishireen-crop-u33683.jpg" crc="365752057" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="oppenlaender-crop-u33813.jpg" crc="508451196" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mackeprang-crop-u33983.jpg" crc="534034257" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="naghmishireen-crop-u33684.jpg" crc="3810769788" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="oppenlaender-crop-u33814.jpg" crc="409482634" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mackeprang-crop-u33984.jpg" crc="4174669099" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="416879286" seo="true" mt="1553469486909" redirect="true"/>
+</manifest>
