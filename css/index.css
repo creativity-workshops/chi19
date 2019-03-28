@@ -51,6 +51,9 @@ visibility:visible;
 width:249px;
 z-index:335;
 }
+div.btn a:hover{
+	background-color:#B6B4B4;
+}
 div.btn a span{
 background-color:rgba(0, 0, 0, 0);
 border-bottom-color:rgba(0, 0, 0, 0);
